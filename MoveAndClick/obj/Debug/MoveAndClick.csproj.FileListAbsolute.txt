@@ -1,0 +1,5 @@
+C:\Users\KServ\Documents\SharpDevelop Projects\MoveAndClick\MoveAndClick\bin\Debug\MoveAndClick.exe
+C:\Users\KServ\Documents\SharpDevelop Projects\MoveAndClick\MoveAndClick\bin\Debug\MoveAndClick.pdb
+C:\Users\KServ\Documents\SharpDevelop Projects\MoveAndClick\MoveAndClick\obj\Debug\MoveAndClick.csprojResolveAssemblyReference.cache
+C:\Users\KServ\Documents\SharpDevelop Projects\MoveAndClick\MoveAndClick\obj\Debug\MoveAndClick.exe
+C:\Users\KServ\Documents\SharpDevelop Projects\MoveAndClick\MoveAndClick\obj\Debug\MoveAndClick.pdb
