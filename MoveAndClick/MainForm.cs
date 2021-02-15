@@ -36,11 +36,22 @@ namespace MoveAndClick
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 			
-			Cursor.Position = new Point(SystemInformation.VirtualScreen.Width - 10, 10);
+			Cursor.Position = new Point(20, 350);
 			
 			uint X = (uint)Cursor.Position.X;
       		uint Y = (uint)Cursor.Position.Y;
-      		mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, X, Y, 0, 0);
+      		System.Threading.Thread.Sleep(50);
+      		mouse_event(MOUSEEVENTF_LEFTDOWN, X, Y, 0, 0);
+      		
+      		Cursor.Position = new Point(SystemInformation.VirtualScreen.Width/2 - 10, 350);
+      		
+      		X = (uint)Cursor.Position.X;
+      		Y = (uint)Cursor.Position.Y;
+  			System.Threading.Thread.Sleep(50);
+      		
+      		mouse_event(MOUSEEVENTF_LEFTUP, X, Y, 0, 0);
+  			
+  			System.Threading.Thread.Sleep(50);
 		}
 	}
 }
